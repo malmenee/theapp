@@ -1,0 +1,21 @@
+{
+  "name": "NewsCache",
+  "type": "object",
+  "properties": {
+    "events": {
+      "type": "string",
+      "description": "JSON string of high-impact events"
+    },
+    "count": {
+      "type": "number"
+    },
+    "fetchedAt": {
+      "type": "string",
+      "description": "ISO timestamp of the last successful fetch"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "required": []
+}
